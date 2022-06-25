@@ -1,0 +1,213 @@
+:root {
+    --primary-text-color: #212121;
+    --accent-color:#2196F3;
+    --secondary-text-color:#FFFFFF;
+}
+
+.logo {
+    text-decoration: none;
+    color:var(--accent-color);
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+    font-weight: 700;
+
+}
+.logo-studio {
+    color: #212121;
+}
+.list {
+    list-style: none;
+}
+.link {text-decoration: none;
+}
+.link:hover, .link:focus {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+}
+.menu .menu-link.current {
+    color: var(--accent-color);
+}
+.menu-link {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.address-link {
+    color: var(--accent-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+    color:var(--accent-color);
+}
+.page-header-phone {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.page-header-phone:hover,
+.page-header-phone:focus {
+    color: var(--accent-color);
+}
+.modal-btn {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+/*.modal-button:hover,
+.modal-button:focus{
+    color: #2196F3;
+}*/
+.central-inscription {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+} 
+.central-section {
+    /*position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;*/
+    background: #2F303A;
+}
+.particul-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+}
+.section-particul {
+    opacity: 0;
+}
+.particul-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    /*text-align: center;*/
+    letter-spacing: 0.03em; 
+}
+h3 {
+    color: var(--primary-text-color);
+}
+.team {
+    background-color: #F5F4FA;
+    
+}
+.team-list-name {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.team-list-post {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.footer {
+    background-color: #2F303A;
+}
+.logo-footer {
+    color: var(--secondary-text-color);
+}
+.link-footer {  
+font-style: normal;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color:rgba(255, 255, 255, 0.6);;
+}
+.link-address {
+font-style: normal;
+font-family: 'Roboto';
+font-weight: 400;
+ font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
+/*styles for Portfolio*/
+.projects {
+    background-color:#FFFFFF;
+}
+.address-link {
+    color:  #757575;
+}
+
+.btn {
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        letter-spacing: 0.03em;
+       cursor: pointer;
+ 
+        
+}
+.btn:hover, .btn:focus {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+}
+.title {
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--primary-text-color);
+}
+.text {
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+.projects-title {
+    opacity:0;
+}
